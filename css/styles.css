@@ -1,0 +1,221 @@
+.cabezablog {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cabezablog div {
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+}
+.cabezablog div img {
+  width: 10%;
+}
+.cabezablog div h6 {
+  align-self: flex-end;
+}
+.cabezablog nav {
+  margin-right: 1em;
+  display: flex;
+}
+.cabezablog nav a {
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* portafolio */
+.header {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.header img {
+  margin: 5px 0;
+  width: 6em;
+  height: 6em;
+}
+.header div {
+  text-align: center;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header div li {
+  list-style: none;
+}
+.header div .link {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#roww {
+  margin-top: 0.001em;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 1em 0.001em;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#roww .card-body li {
+  list-style: none;
+}
+#roww .card-body li .link--proyecto {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.pie-principal {
+  background-color: aqua;
+  text-align: center;
+}
+
+/* contacto */
+.cabeza-contacto {
+  padding: 2px 0;
+  background-color: rgb(63, 63, 63);
+  text-align: center;
+}
+.cabeza-contacto h1 {
+  color: rgb(85, 228, 180);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.cabeza-contacto a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.cuerpo-contacto {
+  background: inherit;
+  padding: 10px 0;
+  text-align: center;
+}
+.cuerpo-contacto form {
+  width: 300px;
+  height: 430px;
+  margin: 0 auto;
+}
+.cuerpo-contacto form label {
+  width: 6em;
+  margin: 4px 0;
+}
+.cuerpo-contacto form input {
+  margin: 4px 0;
+}
+.cuerpo-contacto form textarea {
+  width: 225px;
+  height: 275px;
+  margin-top: 4px;
+}
+
+/* blog de programacion */
+#cabeza-programacion {
+  background-color: chocolate;
+}
+#cabeza-programacion div h6 {
+  color: aquamarine;
+}
+#cabeza-programacion nav a {
+  color: coral;
+}
+
+.cuerpo-programacion h2 {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.pie-programacion {
+  text-align: center;
+  background-color: chocolate;
+}
+
+/* blog de meems */
+#cabeza-memes {
+  background-color: ghostwhite;
+}
+#cabeza-memes div h6 {
+  color: aquamarine;
+}
+#cabeza-memes nav a {
+  color: black;
+}
+
+.cuerpo-memes h2 {
+  margin-top: 8px;
+  text-align: center;
+}
+.cuerpo-memes img {
+  width: 35%;
+  margin: 3em auto 0 auto;
+  display: block;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.pie-memes {
+  margin-top: 1em;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+/* blog de alimentacion */
+#cabeza-alimentacion {
+  background-color: cadetblue;
+}
+#cabeza-alimentacion div h6 {
+  color: aquamarine;
+}
+#cabeza-alimentacion nav a {
+  color: aquamarine;
+}
+
+.cuerpo-alimentacion h2 {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.pie-alimentacion {
+  text-align: center;
+  background-color: cadetblue;
+}
+
+@media only screen and (min-width: 700px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #roww-items {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .header img {
+    width: 12em;
+    height: 12em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
